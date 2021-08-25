@@ -153,6 +153,9 @@ article code::-webkit-scrollbar-thumb {
   border-radius: 13px;
   overflow: auto;
 }
+.highlight * {
+  font-family: monospace;
+}
 .highlight .line {
   padding: 0 1em;
 }
@@ -772,9 +775,8 @@ body {
   box-shadow: 0 1em 3em 0.5em rgba(0,0,0,0.25);
 }
 #nexmoe-background .nexmoe-bg {
-  opacity: 0.2;
   background-size: cover;
-  filter: blur(30px);
+  filter: blur(8px);
   height: 100vh;
   width: 100%;
   position: fixed;
